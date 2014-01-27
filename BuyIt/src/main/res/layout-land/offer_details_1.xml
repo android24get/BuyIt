@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_ten">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/mc_offer_one"
+            android:adjustViewBounds="true"
+            android:layout_margin="@dimen/activity_margin">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/offer_description_mcdonalds_01"
+            android:textSize="@dimen/text_size_medium"
+            android:background="@drawable/card_2"
+            android:layout_margin="@dimen/activity_margin">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_margin">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_2"
+            android:orientation="vertical"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+            android:dividerPadding="@dimen/divider_padding"
+            android:layout_marginRight="@dimen/activity_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_margin"
+                android:paddingRight="@dimen/activity_margin">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+                    android:text="Rate"
+                    android:textSize="@dimen/text_size_large"
+                    android:gravity="center_vertical">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+                    android:text="3.8"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:textSize="@dimen/text_size_medium"
+                    android:gravity="center_vertical">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/star_off"
+                    style="?android:borderlessButtonStyle">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/star_off"
+                    style="?android:borderlessButtonStyle">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/star_off"
+                    style="?android:borderlessButtonStyle">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/star_off"
+                    style="?android:borderlessButtonStyle">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/star_off"
+                    style="?android:borderlessButtonStyle">
+                </ImageButton>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_2"
+            android:orientation="vertical"
+            android:divider="?android:dividerHorizontal"
+            android:showDividers="middle"
+            android:dividerPadding="@dimen/divider_padding"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="7.95€"
+                android:textSize="@dimen/text_size_medium">
+            </TextView>
+
+            <TextView
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="2d 7h"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_medium">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="83 left"
+                android:textSize="@dimen/text_size_medium">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Sotti/AndroidStudioProjects/5Factory/BuyItProject/BuyIt/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-es/strings.xml -->
+    <eat-comment />
+
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Habilitar servicios de Google Play"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Esta aplicación no funcionará si no habilitas los servicios de Google Play."</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Habilitar servicios de Google Play"</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Descargar servicios de Google Play"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Esta aplicación no se ejecutará si tu teléfono no tiene instalados los servicios de Google Play."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Esta aplicación no se ejecutará si tu tablet no tiene instalados los servicios de Google Play."</string>
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Descargar servicios de Google Play"</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Error desconocido relacionado con los servicios de Google Play"</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Tu dispositivo no es compatible con los servicios de Google Play, de los cuales dependen tus aplicaciones. Para obtener asistencia, ponte en contacto el fabricante."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Servicios de Google Play"</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Actualizar"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Esta aplicación no se ejecutará si no actualizas los servicios de Google Play."</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Actualizar servicios de Google Play"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Iniciar sesión"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Iniciar sesión con Google"</string>
+    <!-- From: file:/C:/Users/Sotti/AndroidStudioProjects/5Factory/BuyItProject/BuyIt/src/main/res/values-es/strings.xml -->
+    <eat-comment />
+
+    <string name="in_wikipedia">Qué hay en la Wikipedia?</string>
+    <string name="prat_description"><b>Bienvenido!</b> \n El aeropuerto de <b>Barcelona-El Prat</b> cuenta con dos grandes
+        edificios terminales: la T1 y la T2. El aeropuerto sigue el criterio de uso de terminales
+        por compañías, independientemente de cual sea el destino u origen del vuelo, por lo que se
+        producen vuelos de salida desde ambas terminales. Al llegar al aeropuerto, el pasajero se
+        debe dirigir a la terminal en la que opera la compañía con la que vuela, donde facturará el
+        equipaje y se hará con la tarjeta de embarque. Los mostradores de facturación de la terminal
+        T1 se encuentran en el vestíbulo de la tercera planta. El Puente Aéreo Barcelona-Madrid
+        cuenta con su propio espacio en el dique norte de la T1. La terminal T2 se divide, por su
+        parte, en tres áreas de facturación: A, B y C. Le recomendamos que acuda a facturar con el
+        suficiente tiempo de antelación; así evitará imprevistos. \n \n <b>¿Dónde debe facturar?</b> \n En la
+        tarjeta de embarque debe figurar la puerta por la que embarcará al avión. Si no es así, sí
+        que debe figurar la zona o módulo de embarque. La T1 cuenta con cinco zonas de embarque, A,
+        B, C, D y E. La T2 cuenta con seis módulos de embarque, M0, M1, M2, M3, M4 y M5, a los que
+        se accede a través de la rambla de uso exclusivo para los pasajeros a la que se llega tras
+        pasar los controles de seguridad.</string>
+    <string name="wikipedia_url_pratt">http://es.wikipedia.org/wiki/Aeropuerto_de_Barcelona-El_Prat</string>
+
+</resources>

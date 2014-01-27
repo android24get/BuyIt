@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background_signin">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:src="@drawable/logo_text"
+            android:layout_gravity="center">
+        </ImageView>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/activity_margin"
+        android:padding="@dimen/activity_margin">
+
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/sign_in_fb"
+            android:onClick="launch_location">
+        </ImageView>
+
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/sign_in_gplus"
+            android:onClick="launch_location">
+        </ImageView>
+
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/sig_nin_twitter"
+            android:onClick="launch_location">
+        </ImageView>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Sotti/AndroidStudioProjects/5Factory/BuyItProject/BuyIt/src/main/res/layout-land/sign_in_activity.xml -->

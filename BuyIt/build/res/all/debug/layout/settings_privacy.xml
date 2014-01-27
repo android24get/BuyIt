@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_margin"
+    android:divider="?android:dividerHorizontal"
+    android:showDividers="middle">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <!-- android:background="@android:drawable/list_selector_background" THIS IS FOR LOWERS API THAN 11-->
+
+        <TextView
+            android:text="@string/improve_suggestions"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:textSize="18sp">
+        </TextView>
+
+        <Switch
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </Switch>
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <!-- android:background="@android:drawable/list_selector_background" THIS IS FOR LOWERS API THAN 11-->
+
+        <TextView
+            android:text="@string/account_data_access"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:textSize="18sp">
+        </TextView>
+
+        <Switch
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </Switch>
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <!-- android:background="@android:drawable/list_selector_background" THIS IS FOR LOWERS API THAN 11-->
+
+        <TextView
+            android:text="@string/favorite_locations_data"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:textSize="18sp">
+        </TextView>
+
+        <Switch
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+        </Switch>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Sotti/AndroidStudioProjects/5Factory/BuyItProject/BuyIt/src/main/res/layout/settings_privacy.xml -->

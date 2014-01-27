@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+        android:gravity="center_vertical"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@color/gray_background">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/location_place"
+            android:layout_marginRight="@dimen/icons_margin"
+            android:contentDescription="@string/location_icon">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/airport_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_medium"
+            android:hint="@string/airport_layout_preview_example"
+            android:gravity="center">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:orientation="horizontal"
+        android:background="@color/cyan_android"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/linear_layout_horizontal_margin"
+        android:layout_marginLeft="@dimen/linear_layout_horizontal_margin"
+        android:layout_marginTop="@dimen/linear_layout_top_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/fly_number"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/boarding_gate"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/linear_layout_horizontal_margin"
+        android:layout_marginLeft="@dimen/linear_layout_horizontal_margin">
+
+            <TextView
+                android:id="@+id/fly_number_in_result"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/text_size_large"
+                android:hint="@string/fly_number_preview_layout_example"
+                android:gravity="center"
+                android:textColor="#0099CC"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/text_size_large"
+                android:hint="@string/boarding_gate_layout_preview_example"
+                android:text="@string/boarding_gate_layout_preview_example"
+                android:gravity="center"
+                android:textColor="#0099CC"/>
+        </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/linear_layout_horizontal_margin"
+        android:layout_marginLeft="@dimen/linear_layout_horizontal_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/take_off_time"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/boarding_gate"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/linear_layout_horizontal_margin"
+        android:layout_marginLeft="@dimen/linear_layout_horizontal_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_large"
+            android:hint="@string/take_off_time_layout_preview_example"
+            android:text="@string/take_off_time_layout_preview_example"
+            android:gravity="center"
+            android:textColor="#0099CC"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_large"
+            android:text="20:03"
+            android:gravity="center"
+            android:textColor="#0099CC"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:orientation="horizontal"
+        android:background="@color/cyan_android"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/gray_background">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="@string/boarding_time"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="match_parent"
+            android:hint="@string/boarding_time_layout_preview_example"
+            android:text="@string/boarding_time_layout_preview_example"
+            android:textSize="@dimen/text_size_mega"
+            android:gravity="center"
+            android:textColor="#FF4444">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/minutes"
+            android:textSize="@dimen/text_size_medium"
+            android:gravity="center">
+        </TextView>
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:orientation="horizontal"
+        android:background="@color/cyan_android"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/done"
+        android:onClick="close_Activity"/>-->
+
+</LinearLayout>

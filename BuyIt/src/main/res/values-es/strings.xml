@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Descripciones -->
+    <string name="prat_description"><b>Bienvenido!</b> \n El aeropuerto de <b>Barcelona-El Prat</b> cuenta con dos grandes
+        edificios terminales: la T1 y la T2. El aeropuerto sigue el criterio de uso de terminales
+        por compañías, independientemente de cual sea el destino u origen del vuelo, por lo que se
+        producen vuelos de salida desde ambas terminales. Al llegar al aeropuerto, el pasajero se
+        debe dirigir a la terminal en la que opera la compañía con la que vuela, donde facturará el
+        equipaje y se hará con la tarjeta de embarque. Los mostradores de facturación de la terminal
+        T1 se encuentran en el vestíbulo de la tercera planta. El Puente Aéreo Barcelona-Madrid
+        cuenta con su propio espacio en el dique norte de la T1. La terminal T2 se divide, por su
+        parte, en tres áreas de facturación: A, B y C. Le recomendamos que acuda a facturar con el
+        suficiente tiempo de antelación; así evitará imprevistos. \n \n <b>¿Dónde debe facturar?</b> \n En la
+        tarjeta de embarque debe figurar la puerta por la que embarcará al avión. Si no es así, sí
+        que debe figurar la zona o módulo de embarque. La T1 cuenta con cinco zonas de embarque, A,
+        B, C, D y E. La T2 cuenta con seis módulos de embarque, M0, M1, M2, M3, M4 y M5, a los que
+        se accede a través de la rambla de uso exclusivo para los pasajeros a la que se llega tras
+        pasar los controles de seguridad.
+    </string>
+
+    <string name="in_wikipedia">Qué hay en la Wikipedia?</string>
+    <string name="wikipedia_url_pratt">http://es.wikipedia.org/wiki/Aeropuerto_de_Barcelona-El_Prat</string>
+
+</resources>

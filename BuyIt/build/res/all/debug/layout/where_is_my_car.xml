@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/linear_layout_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/linear_layout_top_first_margin"
+        android:layout_marginBottom="@dimen/linear_layout_bottom_margin">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/location_place"
+                android:layout_marginRight="@dimen/icons_margin"
+                android:contentDescription="@string/location_icon">
+        </ImageView>
+
+        <Spinner
+            android:id="@+id/car_location_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium">
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/linear_layout_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/linear_layout_top_margin"
+            android:layout_marginBottom="@dimen/linear_layout_bottom_margin">
+
+        <EditText
+                android:id="@+id/car_position"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:hint="@string/position_hint"
+                android:singleLine="false"/>
+
+        <ImageButton
+                android:layout_width="@dimen/fortyeight_standard_visual_rhythm"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_color_picker_dark"
+                android:background="?android:selectableItemBackground"
+                android:contentDescription="@string/car_position_color_description">
+        </ImageButton>
+
+        <ImageButton
+                android:layout_width="@dimen/fortyeight_standard_visual_rhythm"
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_menu_camera"
+                android:onClick="launch_Camera"
+                android:background="?android:selectableItemBackground"
+                android:contentDescription="@string/car_position_camera_button_description">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/linear_layout_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/linear_layout_top_margin"
+            android:layout_marginBottom="@dimen/linear_layout_bottom_last_margin">
+
+        <EditText
+                android:id="@+id/car_location_note"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/text_size_medium"
+                android:hint="@string/car_note_hint"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:orientation="horizontal"
+        android:background="@color/cyan_android"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+            android:orientation="horizontal"
+            style="?android:buttonBarStyle"
+            android:dividerPadding="@dimen/divider_padding">
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                style="?android:attr/buttonBarButtonStyle"
+                android:text="@string/discard"
+                android:onClick="close_Activity"/>
+
+        <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                style="?android:attr/buttonBarButtonStyle"
+                android:text="@string/save"
+                android:onClick="launch_CarFilled"/>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Sotti/AndroidStudioProjects/5Factory/BuyItProject/BuyIt/src/main/res/layout/where_is_my_car.xml -->

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/search"
+          android:title="@string/search_title"
+          android:icon="@drawable/action_search"
+          android:showAsAction="collapseActionView|ifRoom"
+          android:actionViewClass="android.widget.SearchView"
+          android:orderInCategory="0"/>
+
+    <item android:id="@+id/settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="2"
+          android:showAsAction="never"/>
+
+    <item android:id="@+id/profile"
+          android:title="@string/profile"
+          android:orderInCategory="3"
+          android:showAsAction="never"/>
+
+    <item android:id="@+id/send_feedback"
+        android:title="@string/send_feedback"
+        android:orderInCategory="4"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/about"
+          android:title="@string/about"
+          android:orderInCategory="5"
+          android:showAsAction="never"/>
+</menu>

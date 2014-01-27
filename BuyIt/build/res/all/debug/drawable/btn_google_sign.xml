@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <nine-patch android:src="@drawable/btn_gplus_signin_pressed"></nine-patch>
+    </item>
+
+    <item android:state_focused="true">
+        <nine-patch android:src="@drawable/btn_gplus_signin_focus"></nine-patch>
+    </item>
+
+    <item android:state_enabled="false">
+        <nine-patch android:src="@drawable/btn_gplus_signin_disabled"></nine-patch>
+    </item>
+
+    <item>
+        <nine-patch android:src="@drawable/btn_gplus_signin_normal"></nine-patch>
+    </item>
+
+</selector><!-- From: file:/C:/Users/Sotti/AndroidStudioProjects/5Factory/BuyItProject/BuyIt/src/main/res/drawable/btn_google_sign.xml -->

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/info_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+            android:orientation="horizontal"
+            android:gravity="center"
+            style="?android:borderlessButtonStyle">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/collections_labels">
+            </ImageView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="11.95€"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@android:color/darker_gray">
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="7.95€"
+                android:textSize="@dimen/text_size_medium">
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4€"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@android:color/holo_red_light">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="6dp"
+            style="?android:borderlessButtonStyle">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/device_access_time">
+            </ImageView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="2 days and 7h remaining"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_medium">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fortyeight_standard_visual_rhythm"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="6dp"
+            style="?android:borderlessButtonStyle"
+            android:onClick="launch_buyit">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/collections_new_label">
+            </ImageView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:gravity="center"
+                android:text="83 offers left"
+                android:textSize="@dimen/text_size_medium">
+            </TextView>
+
+        </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyan_android">#33B5E5</color>
+
+    <color name="cyan_dark_android">#0099CC</color>
+
+    <color name="cyan_our">#00a8ff</color>
+
+    <color name="gray_background">#e4e4e4</color>
+
+    <color name="actionBar_background">#33B5E5</color>
+
+    <color name="actionBar_Text">#ffcccccc</color>
+
+    <color name="gray_ten">#ebebeb</color>
+
+    <color name="gray_fifteen">#e1e1e1</color>
+
+    <color name="gray_twenty">#d7d7d7</color>
+
+    <color name="gray_twentyfive">#CCCCCC</color>
+
+    <color name="gray_thirtyfive">#b7b7b7</color>
+
+    <color name="gray_fifty">#959595</color>
+
+</resources>

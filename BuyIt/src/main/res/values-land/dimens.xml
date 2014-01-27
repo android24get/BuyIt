@@ -1,0 +1,51 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Activity Margins-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_margin_double">32dp</dimen>
+    <dimen name="activity_margin_triple">48dp</dimen>
+    <dimen name="activity_margin_quad">64dp</dimen>
+    <dimen name="scroll_textView_margin">20dp</dimen>
+
+
+    <!-- Linear Layouts Margins-->
+    <dimen name="linear_layout_horizontal_margin">16dp</dimen>
+    <dimen name="linear_layout_vertical_margin">16dp</dimen>
+    <dimen name="linear_layout_top_first_margin">16dp</dimen>
+    <dimen name="linear_layout_top_margin">4dp</dimen>
+    <dimen name="linear_layout_bottom_margin">4dp</dimen>
+    <dimen name="linear_layout_bottom_last_margin">16dp</dimen>
+    <dimen name="linear_layout_margin">16dp</dimen>
+
+    <!-- Drawer widths-->
+    <dimen name="left_drawer_width">280dp</dimen>
+    <dimen name="right_drawer_width">240dp</dimen>
+
+    <!-- Text Sizes-->
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22dp</dimen>
+    <dimen name="text_size_mega">32dp</dimen>
+
+    <!-- Visual rhythm-->
+    <dimen name="twentyfour_visual_rhythm">24dp</dimen>
+    <dimen name="fortyeight_standard_visual_rhythm">48dp</dimen>
+    <dimen name="ninetysix_visual_rhythm">96dp</dimen>
+    <dimen name="hundred_and_fortyfour_visual_rhythm">144dp</dimen>
+    <dimen name="hundred_and_ninetysix_visual_rhythm">192dp</dimen>
+
+    <!-- Dividers-->
+    <dimen name="divider_padding">8dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="card_elements_divider_space">8dp</dimen>
+
+    <!-- Images -->
+    <dimen name="photo_preview">96dp</dimen>
+    <dimen name="icons_margin">16dp</dimen>
+    <dimen name="big_image_margin">32dp</dimen>
+    <dimen name="card_image_height">144dp</dimen>
+    <dimen name="choose_location_image_height">240dp</dimen>
+</resources>

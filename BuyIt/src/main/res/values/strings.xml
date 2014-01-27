@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_info">Photo info</string>
+    <string name="action_photo">View photo</string>
+
+    <!-- General -->
+    <string name="app_name">BuyIt</string>
+    <string name="choose_your_location">Choose your location</string>
+    <string name="app_not_available">Ups! It seems there\'s no web browser available.</string>
+    <string name="search_title">Local Search</string>
+    <string name="search_hint">Local name</string>
+    <string name="search_Local">Search Results</string>
+
+    <!-- Menus -->
+    <string name="action_settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="privacy">Privacy Settings</string>
+    <string name="privacy_summ">Settings related to the user privacy</string>
+    <string name="about">About</string>
+    <string name="about_description">This application is just for demo purposes.\n\n 2013</string>
+    <string name="log_out">Logout</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="location_access">Location access</string>
+    <string name="send_to">Share with…</string>
+    <string name="send_feedback_description_label">Description:</string>
+
+    <!-- Used in Sign In, Sign out or Revoking Access -->
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="signing_in_status">Signing in with Google</string>
+    <string name="signed_in_status">Signed in as \"%s\".</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="signed_out_status">Signed out.</string>
+    <string name="revoke_access">Revoke Access</string>
+    <string name="revoke_access_status">Revoked access.</string>
+    <string name="loading_status">Loading…</string>
+
+    <!-- Used if there was an error in the sign in, out or revoking access.. -->
+    <string name="unknown_person">Unknown</string>
+    <string name="revoke_access_error_status">Unable to revoke access.</string>
+
+    <!-- Buttons -->
+    <string name="discard">Discard</string>
+    <string name="check">Check</string>
+    <string name="done">Done!</string>
+    <string name="Send">Send</string>
+    <string name="save">Save</string>
+    <string name="in_wikipedia">What\'s in Wikipedia?</string>
+    <string name="buyit">BuyIt</string>
+    <string name="Share">Share</string>
+    <string name="login_message">LogIn or SignUp</string>
+
+    <!-- Accessibility -->
+    <string name="drawer_open">The drawer is opened.</string>
+    <string name="drawer_close">The drawer is closed.</string>
+
+    <!-- Apps -->
+    <string name="where_is_my_car">Where\'s my car?</string>
+    <string name="position">Position:</string>
+    <string name="position_hint">Position i.e., 13C</string>
+    <string name="car_note_hint">Note: i.e. Second floor....</string>
+    <string name="car_position_camera_button_description">Button to take a car position picture</string>
+    <string name="car_position_color_description">Color picker identifing the car position</string>
+    <string name="flyInfo">FlyInfo</string>
+    <string name="barajas_airport">Barajas Airport</string>
+    <string name="fly_number_hint">Fly: i.e. VY38EXN4Q</string>
+    <string name="minutes">mins</string>
+    <string name="boarding_gate">Boarding Gate</string>
+    <string name="fly_number">Fly number</string>
+    <string name="take_off_time">Take off time</string>
+    <string name="boarding_time">Boarding time</string>
+    <string name="fly_number_preview_layout_example">GC 8311</string>
+    <string name="boarding_time_layout_preview_example">38</string>
+    <string name="boarding_gate_layout_preview_example">88C</string>
+    <string name="take_off_time_layout_preview_example">20:33</string>
+    <string name="airport_layout_preview_example">Barajas Airport</string>
+    <string name="location_layout_preview_example">Barajas Airport</string>
+    <string name="car_note_layout_preview_example">Just in my favorite place.</string>
+    <string name="car_position_layout_preview_example">11C</string>
+    <string name="note">Note:</string>
+
+    <!-- Locations -->
+    <string name="cc_plenilunio">C.C. Plenilunio</string>
+    <string name="elpratt">El Prat Airport</string>
+
+    <!-- Locals -->
+    <string name="McDonalds">McDonalds</string>
+
+
+    <!-- ImageView Descriptions -->
+    <string name="location_icon">Geolocation icon</string>
+    <string name="logout_icon">Logout icon</string>
+
+    <!-- Offer titles -->
+    <string name="two_mcmenus_medium">2 Medium McMenus</string>
+
+    <!-- URLs -->
+    <string name="wikipedia_url_pratt">http://en.wikipedia.org/wiki/Barcelona_International_Airport</string>
+    <string name="wikipedia_url_mcdonalds">http://en.wikipedia.org/wiki/McDonalds</string>
+
+    <!-- Toast Messages -->
+    <string name="feedback_thanks">We really apreciate you feedback. \n Thank you!!</string>
+
+    <!-- Descriptions -->
+    <string name="prat_description"><b>Welcome!</b> \n \n The <b>Barcelona-El Prat</b> airport has two large terminal buildings: T1 and T2. The airport\'s policy is to run terminals by companies, regardless the flight\'s destination or origin, so
+                                        flights may depart from both terminals. At the airport, the passenger should lead to the terminal in which the company operates, check luggage and be done with the boarding pass. The
+                                        terminal T1 check-in is located in the lobby of the third floor. The Barcelona-Madrid air shuttle has its own space on the north dock of T1. The terminal T2 is divided in three check-in areas: A, B and C.
+                                        We recommend check-in with anticipation and avoid unforeseen.
+
+                                        \n\n
+
+                                        <b>Where should you check?</b>\n \n
+                                        Check your boarding pass to be sure of the boarding gate. You can check it too in the boarding area screens. The T1 has five piers, A, B, C, D and E. The T2 has six boarding modules, M0, M1, M2, M3, M4 and M5, which
+                                        are accessed via the boardwalk exclusively for passengers which comes after pass security checks.</string>
+
+    <string name="description_locals_elprat">Shops and restaurants by the sea, open every day of the year. Sundays and holidays included.</string>
+
+    <string name="description_local_maremagnum">This is the main airport in Catalunya. Here you can find a lot of locals to eat like McDonalds, Lizarran and Pans or if you prefer just have a drink Caffè di Roma or Costa Coffe.</string>
+
+    <string name="description_local_sants">Barcelona Sants railway station or Estació de Barcelona-Sants is the main railway station in Barcelona, owned by Adif, the railway infrastructure agency of Spain.</string>
+
+    <string name="mcdonalds_description">McDonalds is the leader in the catering sector in the world. McDonalds represents the strength of a global brand and a companys commitment to society,
+                                        such as its solid presence in the Spanish market. The principles of the company are: quality, service, cleanliness and value or affordability. The overall quality
+                                        is present in all facets of the operations of McDonalds to achieve one hundred percent customer satisfaction.</string>
+    <string name="no_offers">Oops! \n We haven\'t any offer yet. \n\n Check it back soon!!
+    </string>
+    <string name="select_location">Select Location</string>
+    <string name="improve_suggestions">Improve suggestions</string>
+    <string name="account_data_access">Access to my account data</string>
+    <string name="favorite_locations_data">Predict my locations</string>
+    <string name="explore">Explore</string>
+    <string name="el_prat_airport">El Prat Airport</string>
+    <string name="maremagnum">Maremagnum</string>
+    <string name="sants_estacio">Sants Estació</string>
+    <string name="WTC">World Trade Center BCN</string>
+    <string name="code">Code</string>
+    <string name="Info">Info</string>
+    <string name="Onboarding">Onboard</string>
+    <string name="offer_description_mcdonalds_01">Aprovecha la oferta y disfruta de 2 McMenú medianos a un precio increible.</string>
+
+
+    <!-- String Arrays -->
+    <!-- Locations Array -->
+    <string-array name="locations_array">
+        <item>El Prat</item>
+        <item>Maremagnum</item>
+        <item>Sants Estació</item>
+    </string-array>
+
+    <!-- Airports Array -->
+    <string-array name="airports_array">
+        <item>El Prat</item>
+        <item>Reus</item>
+        <item>Girona-Costa Brava</item>
+        <item>De La Seu</item>
+    </string-array>
+
+    <!-- Locals Array -->
+    <string-array name = "locals_array">
+        <item>All</item>
+        <item>McDonalds</item>
+        <item>Lizarran</item>
+        <item>Häagen Dazs</item>
+        <item>Pans&amp;Company</item>
+        <!--<item>Onza</item>
+        <item>Chocolat Factory</item>
+        <item>Farga</item>
+        <item>Sibarium</item>
+        <item>Tutti Frutti</item>
+        <item>Secrets Sucrés</item>
+        <item>The Express Shop</item>
+        <item>The Shop</item>
+        <item>Barcelona Duty Free</item>
+        <item>Apetece</item>
+        <item>Asador del Mar</item>
+        <item>Dehesa Santa María</item>
+        <item>Medas Beer</item>
+        <item>Medas Grill</item>
+        <item>Mussol</item>
+        <item>Pasta Fiore</item>
+        <item>Semon</item>
+        <item>Portagaig</item>
+        <item>Quasi Queviures</item>
+        <item>Grill Terracotta</item>
+        <item>Caffé di Fiore</item>
+        <item>Jamaica</item>
+        <item>Caffé di Roma</item>
+        <item>Costa Coffee</item>
+        <item>Espressamente Illy</item>
+        <item>Fresh and Ready</item>
+        <item>Gambrinus</item>
+        <item>Worlding San Miguel</item>-->
+
+    </string-array>
+
+    <!-- Filters Array -->
+    <string-array name = "local_filters">
+        <item>All</item>
+        <item>Restaurants</item>
+        <item>Coffee</item>
+        <item>Shopping</item>
+    </string-array>
+
+    <!-- Apps Array -->
+    <string-array name = "apps_array">
+        <item>Where is my car?</item>
+        <item>FlyInfo</item>
+    </string-array>
+
+    <!-- Icons Array -->
+    <string-array name = "left_drawer_icons">
+        <item>@drawable/logo_aena</item>
+        <item>@drawable/left_drawer_icon_mcdonalds</item>
+        <item>@drawable/icon_liza</item>
+        <item>@drawable/left_drawer_icon_pans</item>
+        <item>@drawable/left_drawer_icon_dazs</item>
+        <item>@drawable/ic_action_location</item>
+    </string-array>
+
+</resources>
